@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Finlandica', sans-serif;
+}
+form {
+    width: 35%;
+    margin: auto;
+    font-family: 'Finlandica', sans-serif;
+}
+.btn-secondary {
+    margin: 10px auto;
+}
+form {
+    padding: 2em;
+    margin-top: 40px;
+    border: 1px solid rgb(67, 67, 67);
+    border-radius: 4px;
+    box-shadow: 5px 2px 8px 7px grey;
+}
+#vonal {
+    width: 100%;
+    height: 1em;
+    display: inline-block;
+    text-align: center;
+    font-size: 2em;
+}
+.material-symbols-outlined {
+    border: 1px solid black;
+}
+#num-area {
+    width: 88%;
+}
+.button-area {
+    display: inline-block;
+}
+
+.check-visible {
+    visibility: hidden;
+}
+.x-visible {
+    visibility: hidden;
+}
+#positive {
+    color: rgb(9, 163, 9);
+}
+#negative {
+    color: rgb(176, 0, 0);
+}
+#bank-logo {
+    display: inline-block;
+    width: 100px;
+    height: 38px;
+    margin-left: 1em;
+}
+@media (max-width: 425px) {
+    form {
+        width:80%;
+    }
+}
+
